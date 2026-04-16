@@ -2,4 +2,4 @@
 
 システム名：　ああシステム
 
-URL：　https://aso2201493.kikirara.jp/php2/final/final.php
+URL：　https://masa21.sakura.ne.jp/production/php/customer.php
