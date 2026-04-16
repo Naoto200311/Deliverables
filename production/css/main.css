@@ -1,0 +1,103 @@
+/* デフォルト（PC用） */
+#login_screen {
+  text-align: center;
+  margin: 0 auto;
+  width: 350px;
+}
+
+/* タブレット用（幅800px以下） */
+@media screen and (max-width: 800px) {
+  #login_screen {
+    width: 90%;
+  }
+}
+
+/* スマホ用（幅600px以下） */
+@media screen and (max-width: 600px) {
+  #login_screen {
+    width: 95%;
+  }
+}
+body {
+  color: #333;
+  background-color: #cd8e92;
+}
+.header-banner {
+    background-color: #680E2C;
+    color: #FFD;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-row label {
+  width: 120px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.form-row input,
+.form-row select {
+  flex: 1;
+  min-width: 0;
+  padding: 6px;
+}
+.footer-banner {
+    background-color: #2B0000;
+    color: #FFD;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+/* 共通の見た目 */
+.confirm-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.confirm-row label {
+  width: 150px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.confirm-row span {
+  flex: 1;
+}
+
+/* スマホ用（幅600px以下） */
+@media screen and (max-width: 600px) {
+  .confirm-row {
+    flex-direction: column;
+  }
+
+  .confirm-row label {
+    width: 100%;
+    text-align: left;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
