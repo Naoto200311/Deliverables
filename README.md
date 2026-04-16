@@ -1,1 +1,5 @@
-名前：野口　尚都(のぐち　なおと)　　　　　IT職歴：1年2カ月　　　　　主な使用言語：PHP、Java
+氏名：　野口　尚都
+
+システム名：　ああシステム
+
+URL：　https://aso2201493.kikirara.jp/php2/final/final.php
